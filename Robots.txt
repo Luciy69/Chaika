@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: luciy69.github.io/site/main.html
+Sitemap: http://luciy69.github.io/site/main.html/sitemap.xml

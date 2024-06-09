@@ -1,0 +1,38 @@
+<IfModule dir_module>
+    DirectoryIndex index.php index.html
+</IfModule>
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html
+<FilesMatch "\.(html)$">
+   Header set Cache-Control: "no-cache, no-store"
+   Header unset ETag
+</FilesMatch>
+Header set X-Content-Type-Options nosniff
+
+RewriteEngine on
+RewriteRule ^login$ login.php
+RewriteRule ^main3$ main3.php
+RewriteRule ^lich$ lich.php
+RewriteRule ^org-index$ org-index.php
+RewriteRule ^index$ index.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^register$ register.php
+RewriteRule ^main1$ main1.php
+RewriteRule ^main4$ main4.php
+RewriteRule ^main5$ main5.php
+RewriteRule ^main6$ main6.php
+RewriteRule ^main7$ main7.php
+RewriteRule ^main8$ main8.php
+RewriteRule ^main9$ main9.php
+RewriteRule ^main10$ main10.php
+RewriteRule ^main11$ main11.php
+RewriteRule ^main12$ main12.php
+RewriteRule ^main13$ main13.php
+RewriteRule ^main14$ main14.php
+RewriteRule ^main15$ main15.php
+RewriteRule ^main16$ main16.php
+RewriteRule ^main17$ main17.php
+RewriteRule ^main18$ main18.php
+RewriteRule ^main19$ main19.php
+RewriteRule ^main20$ main20.php
+RewriteRule ^gg$ gg.php
